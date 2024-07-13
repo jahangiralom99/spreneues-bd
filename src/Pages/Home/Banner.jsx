@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="max-w-screen-xl mx-auto px-6">
         <img className="w-96 pt-3" src={logo} alt="" />
         <div className="flex flex-col md:flex-row gap-12 items-center  justify-between  p-6">
-          <div className="space-y-6 text-white flex-1 p-4">
+          <div className="space-y-6 text-white md:flex-1 p-4">
             <h1 className="font-extrabold text-5xl text-white">
               যে পাপে সেল কমে
             </h1>
@@ -36,7 +36,7 @@ const Banner = () => {
             </p>
             <hr className="border border-white" />
           </div>
-          <div className="flex-1">
+          <div className="md:flex-1">
             <img className="rounded-xl" src={banner_image} alt="" />
             <div className="text-white flex flex-col md:flex-row items-center gap-5 md:gap-16 mt-12">
               <div className="flex items-center text-2xl gap-1">
