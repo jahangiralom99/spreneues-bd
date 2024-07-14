@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useForm } from "react-hook-form";
 import { MdOutlineCallToAction } from "react-icons/md";
 import image from "../../assets/WhatsApp-Image-2024-06-07-at-1.52.44-AM.jpeg";
