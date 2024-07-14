@@ -1,8 +1,11 @@
+import Order from "../Order/Order";
 import Banner from "./Banner";
 import EntrepreneurPackage from "./EntrepreneurPackage";
 import PackagePrice from "./PackagePrice";
 import PDFVersion from "./PDFVersion";
 import PrintVersion from "./PrintVersion";
+import Profile from "./Profile";
+import TipsBook from "./TipsBook";
 
 const Home = () => {
   return (
@@ -12,6 +15,9 @@ const Home = () => {
       <PackagePrice />
       <PDFVersion />
       <PrintVersion />
+      <Profile />
+      <TipsBook />
+      <Order/>
     </div>
   );
 };

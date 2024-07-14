@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaGripLinesVertical } from "react-icons/fa";
 import video from "../../assets/Facebook_2.mp4";
 
@@ -15,9 +16,9 @@ const PrintVersion = () => {
         করেছেন। তাদের অভিজ্ঞতা এবং প্রতিক্রিয়া আমাদের জন্য অত্যন্ত
         গুরুত্বপূর্ণ। নিচে কয়েকজন পাঠকের রিভিউ শেয়ার করা হল:
       </p>
-      <div className="grid grid-cols-3 gap-8 mt-12 ">
-        <div className="space-y-5 border p-4 ">
-          <video controls src={video}></video>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-28 ">
+        <div className="space-y-5 border p-6 ">
+          <video className="lg:-mt-16 -mt-8" controls src={video}></video>
           <div className=" p-5">
             <p>
               <FaGripLinesVertical className="text-2xl text-[#fb862d]" />
@@ -29,28 +30,37 @@ const PrintVersion = () => {
             </p>
           </div>
         </div>
-        <div className="space-y-5">
-          <video controls src={video}></video>
-          <p>
-            <FaGripLinesVertical className="text-2xl text-[#fb862d]" />
-          </p>
-          <p>
-            সৈয়দ মাহাদী, ইউ এস এ এর একটা প্রতিষ্ঠিত ইকমার্স ব্যাবসায়কে নেতৃত্ব
-            দিচ্ছেন চিফ অপারেটিং অফিসার হিসেবে। যে পাপে সেল কমে বইটি সম্পর্কে
-            তিনি তার মতামত জানালেন।
-          </p>
+        <div className="space-y-5 border p-6 ">
+          <video className="lg:-mt-16 -mt-8" controls src={video}></video>
+          <div className=" p-5">
+            <p>
+              <FaGripLinesVertical className="text-2xl text-[#fb862d]" />
+            </p>
+            <p>
+              সৈয়দ মাহাদী, ইউ এস এ এর একটা প্রতিষ্ঠিত ইকমার্স ব্যাবসায়কে নেতৃত্ব
+              দিচ্ছেন চিফ অপারেটিং অফিসার হিসেবে। যে পাপে সেল কমে বইটি সম্পর্কে
+              তিনি তার মতামত জানালেন।
+            </p>
+          </div>
         </div>
-        <div className="space-y-5">
-          <video controls src={video}></video>
-          <p>
-            <FaGripLinesVertical className="text-2xl text-[#fb862d]" />
-          </p>
-          <p>
-            সৈয়দ মাহাদী, ইউ এস এ এর একটা প্রতিষ্ঠিত ইকমার্স ব্যাবসায়কে নেতৃত্ব
-            দিচ্ছেন চিফ অপারেটিং অফিসার হিসেবে। যে পাপে সেল কমে বইটি সম্পর্কে
-            তিনি তার মতামত জানালেন।
-          </p>
+        <div className="space-y-5 border p-6 ">
+          <video className="lg:-mt-16 -mt-8" controls src={video}></video>
+          <div className=" p-5">
+            <p>
+              <FaGripLinesVertical className="text-2xl text-[#fb862d]" />
+            </p>
+            <p>
+              সৈয়দ মাহাদী, ইউ এস এ এর একটা প্রতিষ্ঠিত ইকমার্স ব্যাবসায়কে নেতৃত্ব
+              দিচ্ছেন চিফ অপারেটিং অফিসার হিসেবে। যে পাপে সেল কমে বইটি সম্পর্কে
+              তিনি তার মতামত জানালেন।
+            </p>
+          </div>
         </div>
+      </div>
+      <div className="text-center mt-12 md:mt-12">
+        <button className="px-6 font-bold text-white rounded-lg py-2 bg-[#FF0000] hover:bg-[#b11111]">
+          আপনিও বইটি কিনুন, এখনই!
+        </button>
       </div>
     </div>
   );

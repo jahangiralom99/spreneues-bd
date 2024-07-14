@@ -5,7 +5,11 @@ const PackagePrice = () => {
     <div className="max-w-screen-xl mx-auto px-6 mt-12">
       <h1 className="text-4xl font-extrabold text-center">
         এই প্যাকেজটির মূল্য কত?
-      </h1>
+      </h1> <div className="text-center mt-12 md:mt-0">
+        <button className="px-6 font-bold text-white rounded-lg py-2 bg-[#FF0000] hover:bg-[#b11111]">
+          আমি রিসোর্স গুলো চাই
+        </button>
+      </div>
       <div className="mt-12 flex flex-col gap-8 md:flex-row items-center justify-between">
         <div className="md:flex-1">
           <img src={img} alt="" />
